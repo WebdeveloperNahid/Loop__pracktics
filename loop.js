@@ -10,30 +10,33 @@ const colors = ["red", "blue", "green", "yellow", "orange"];
 
 // method-1
 
-let rev = [];
+// let rev = [];
 
-for (let color of colors) {
-  rev.unshift(color);
-}
-console.log(rev);
+// for (let color of colors) {
+//   rev.unshift(color);
+// }
+// console.log(rev);
 
-// method-2
+// // method-2
 
-let rong = [];
-for (let i = 0; i < colors.length; i++) {
-  let x = colors[i];
-  rong.unshift(x);
+// let rong = [];
+// for (let i = 0; i < colors.length; i++) {
+//   let x = colors[i];
+//   rong.unshift(x);
 
-  // rong.unshift(colors[i]);
-}
-console.log(rong);
+//   // rong.unshift(colors[i]);
+// }
+// console.log(rong);
 
-// method-3
+// // method-3
 
-let reverse_ = [];
+// let reverse_ = [];
 
-for (let i = colors.length - 1; i >= 0; i--) {
-  let x = colors[i];
-  reverse_.push(x);
-}
-console.log(reverse_);
+// for (let i = colors.length - 1; i >= 0; i--) {
+//   let x = colors[i];
+//   reverse_.push(x);
+// }
+// console.log(reverse_);
+
+// 98759348570975209457057834809
+

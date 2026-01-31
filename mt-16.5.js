@@ -73,3 +73,41 @@ console.log(mt);    // join(" ").split(" ")
 //   'make',   'Toyota'
 // ]
 };
+
+// <?<?<?<?<?<?<<???>>>>>>>>>>>>>> down the same ans but another way in esy way;
+
+
+{
+  const car = {
+  make: "Toyota",
+  model: " Corolla",
+  year: 2020,
+  cc: 250,
+  color: "green",
+  verson: "w3_newcc",
+};
+
+let carLength = Object.keys(car);
+let maicrocar = Object.values(car)
+
+console.log("property :", carLength.length);
+
+for (let i = 0; i < carLength.length; i++) {
+  let key = carLength[i];
+  // let value = car[key];
+  let value = maicrocar[i];     //the way 2 but esy way to me;for understand
+
+  console.log(
+    "index :",
+    i,
+    "key: ",
+    carLength[i],
+    "|",
+    "value :",
+    value,
+    "--",
+    "typeof : ",
+    typeof value,
+  );
+}
+};
